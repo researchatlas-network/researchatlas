@@ -8,6 +8,35 @@
 
   <ItemGroup>
     <PackageReference Include="Autofac" Version="9.3.4" />
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="11.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ResearchAtlas.Application.Abstractions\ResearchAtlas.Application.Abstractions.csproj" />
+    <ProjectReference Include="..\ResearchAtlas.Application\ResearchAtlas.Application.csproj" />
+    <ProjectReference Include="..\ResearchAtlas.Domain.Abstractions\ResearchAtlas.Domain.Abstractions.csproj" />
+    <ProjectReference Include="..\ResearchAtlas.Domain\ResearchAtlas.Domain.csproj" />
+    <ProjectReference Include="..\ResearchAtlas.Infrastructure.Cache.Memory\ResearchAtlas.Infrastructure.Cache.Memory.csproj" />
+    <ProjectReference Include="..\ResearchAtlas.Infrastructure.Cache.Redis\ResearchAtlas.Infrastructure.Cache.Redis.csproj" />
+    <ProjectReference Include="..\ResearchAtlas.Infrastructure.Cryptography\ResearchAtlas.Infrastructure.Cryptography.csproj" />
+    <ProjectReference Include="..\ResearchAtlas.Infrastructure.Exporting.Csv\ResearchAtlas.Infrastructure.Exporting.Csv.csproj" />
+    <ProjectReference Include="..\ResearchAtlas.Infrastructure.Exporting.Excel\ResearchAtlas.Infrastructure.Exporting.Excel.csproj" />
+    <ProjectReference Include="..\ResearchAtlas.Infrastructure.Exporting.Pdf\ResearchAtlas.Infrastructure.Exporting.Pdf.csproj" />
+    <ProjectReference Include="..\ResearchAtlas.Infrastructure.ExpressionEvaluation\ResearchAtlas.Infrastructure.ExpressionEvaluation.csproj" />
+    <ProjectReference Include="..\ResearchAtlas.Infrastructure.Identity.BuiltIn\ResearchAtlas.Infrastructure.Identity.BuiltIn.csproj" />
+    <ProjectReference Include="..\ResearchAtlas.Infrastructure.Identity.EntraId\ResearchAtlas.Infrastructure.Identity.EntraId.csproj" />
+    <ProjectReference Include="..\ResearchAtlas.Infrastructure.Identity.OpenIdConnect\ResearchAtlas.Infrastructure.Identity.OpenIdConnect.csproj" />
+    <ProjectReference Include="..\ResearchAtlas.Infrastructure.Identity.Saml\ResearchAtlas.Infrastructure.Identity.Saml.csproj" />
+    <ProjectReference Include="..\ResearchAtlas.Infrastructure.JobScheduling.Hangfire\ResearchAtlas.Infrastructure.JobScheduling.Hangfire.csproj" />
+    <ProjectReference Include="..\ResearchAtlas.Infrastructure.Messaging.Email\ResearchAtlas.Infrastructure.Messaging.Email.csproj" />
+    <ProjectReference Include="..\ResearchAtlas.Infrastructure.Messaging\ResearchAtlas.Infrastructure.Messaging.csproj" />
+    <ProjectReference Include="..\ResearchAtlas.Infrastructure.Pdf.DigitalSignature\ResearchAtlas.Infrastructure.Pdf.DigitalSignature.csproj" />
+    <ProjectReference Include="..\ResearchAtlas.Infrastructure.Persistence.SqlServer\ResearchAtlas.Infrastructure.Persistence.SqlServer.csproj" />
+    <ProjectReference Include="..\ResearchAtlas.Infrastructure.Remote.Http\ResearchAtlas.Infrastructure.Remote.Http.csproj" />
+    <ProjectReference Include="..\ResearchAtlas.Infrastructure.Remote.Sftp\ResearchAtlas.Infrastructure.Remote.Sftp.csproj" />
+    <ProjectReference Include="..\ResearchAtlas.Infrastructure.Storage.AzureBlob\ResearchAtlas.Infrastructure.Storage.AzureBlob.csproj" />
+    <ProjectReference Include="..\ResearchAtlas.Infrastructure.Storage.FileSystem\ResearchAtlas.Infrastructure.Storage.FileSystem.csproj" />
+    <ProjectReference Include="..\ResearchAtlas.Infrastructure.Templating\ResearchAtlas.Infrastructure.Templating.csproj" />
   </ItemGroup>
 
 </Project>
