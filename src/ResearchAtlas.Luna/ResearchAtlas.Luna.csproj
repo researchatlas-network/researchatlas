@@ -18,4 +18,8 @@
     <ProjectReference Include="..\ResearchAtlas.DependencyInjection\ResearchAtlas.DependencyInjection.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\assets\" />
+  </ItemGroup>
+
 </Project>

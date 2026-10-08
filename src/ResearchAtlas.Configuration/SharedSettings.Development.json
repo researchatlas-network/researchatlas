@@ -1,0 +1,10 @@
+{
+  "ConnectionStrings": {
+    "SqlServer": "Server=(localdb)\\MSSQLLocalDB;Database=ResearchAtlasDev;Trusted_Connection=True;TrustServerCertificate=True;MultipleActiveResultSets=true"
+  },
+  "Storage": {
+    "FileSystem": {
+      "RootPath": "storage"
+    }
+  }
+}

@@ -6,4 +6,22 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="SharedSettings.Development.json" />
+    <None Remove="SharedSettings.Production.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="SharedSettings.Development.json" />
+    <EmbeddedResource Include="SharedSettings.Production.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="10.0.12" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ResearchAtlas.Extensions\ResearchAtlas.Extensions.csproj" />
+  </ItemGroup>
+
 </Project>
