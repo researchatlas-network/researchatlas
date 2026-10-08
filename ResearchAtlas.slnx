@@ -59,6 +59,7 @@
     <Project Path="tools/ResearchAtlas.Database.Migrator.SqlServer/ResearchAtlas.Database.Migrator.SqlServer.csproj" Id="7e8ba729-51e5-4ca4-bf8e-3a94d0082bff" />
   </Folder>
   <Folder Name="/08. Testing/">
+    <Project Path="tests/ResearchAtlas.Application.Tests/ResearchAtlas.Application.Tests.csproj" Id="7154ab37-b83e-4d5f-9eee-6a7f285218f5" />
     <Project Path="tests/ResearchAtlas.Domain.Tests/ResearchAtlas.Domain.Tests.csproj" Id="2422c47e-d32b-4294-9c19-215ea828b74b" />
   </Folder>
   <Folder Name="/09. Agents/">
