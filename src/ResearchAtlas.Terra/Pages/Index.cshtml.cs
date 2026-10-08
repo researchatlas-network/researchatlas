@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace ResearchAtlas.Portal.Pages
+namespace ResearchAtlas.Terra.Pages
 {
     public class IndexModel : PageModel
     {
