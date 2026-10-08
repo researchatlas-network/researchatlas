@@ -52,7 +52,9 @@
   <Folder Name="/06. Database/">
     <Project Path="src/ResearchAtlas.Database.Migrations.SqlServer/ResearchAtlas.Database.Migrations.SqlServer.csproj" Id="764e2ef1-16fb-411c-9fe3-5fce2f4fd53e" />
   </Folder>
-  <Folder Name="/07. Tools/" />
+  <Folder Name="/07. Tools/">
+    <Project Path="tools/ResearchAtlas.Database.Migrator.SqlServer/ResearchAtlas.Database.Migrator.SqlServer.csproj" Id="7e8ba729-51e5-4ca4-bf8e-3a94d0082bff" />
+  </Folder>
   <Folder Name="/08. Testing/" />
   <Folder Name="/09. Agents/">
     <File Path="AGENTS.md" />
