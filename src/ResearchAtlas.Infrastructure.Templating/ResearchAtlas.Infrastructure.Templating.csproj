@@ -31,8 +31,4 @@
     <ProjectReference Include="..\ResearchAtlas.Application.Abstractions\ResearchAtlas.Application.Abstractions.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Rendering\" />
-  </ItemGroup>
-
 </Project>
