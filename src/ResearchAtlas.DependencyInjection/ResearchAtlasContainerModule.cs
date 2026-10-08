@@ -22,6 +22,8 @@ using ResearchAtlas.Infrastructure.Exporting.Csv;
 using ResearchAtlas.Infrastructure.Exporting.Pdf;
 using ResearchAtlas.Infrastructure.JobScheduling.Hangfire;
 using ResearchAtlas.Infrastructure.Messaging.Email;
+using ResearchAtlas.Infrastructure.Embeddings.Ollama;
+using ResearchAtlas.Infrastructure.Embeddings.AzureOpenAi;
 
 namespace ResearchAtlas.DependencyInjection;
 
@@ -76,5 +78,14 @@ public sealed class ResearchAtlasContainerModule : Module
         builder.RegisterModule<RemoteHttpModule>();
         builder.RegisterModule<RemoteSftpModule>();        
         builder.RegisterModule<MessagingEmailModule>();
+
+        if (isDevelopment)
+        {
+            builder.RegisterModule<EmbeddingsOllamaModule>();
+        }
+        else
+        {
+            builder.RegisterModule<EmbeddingsAzureOpenAiModule>();
+        }
     }
 }

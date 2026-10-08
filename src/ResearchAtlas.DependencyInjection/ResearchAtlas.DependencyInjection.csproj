@@ -19,6 +19,8 @@
     <ProjectReference Include="..\ResearchAtlas.Infrastructure.Cache.Memory\ResearchAtlas.Infrastructure.Cache.Memory.csproj" />
     <ProjectReference Include="..\ResearchAtlas.Infrastructure.Cache.Redis\ResearchAtlas.Infrastructure.Cache.Redis.csproj" />
     <ProjectReference Include="..\ResearchAtlas.Infrastructure.Cryptography\ResearchAtlas.Infrastructure.Cryptography.csproj" />
+    <ProjectReference Include="..\ResearchAtlas.Infrastructure.Embeddings.AzureOpenAi\ResearchAtlas.Infrastructure.Embeddings.AzureOpenAi.csproj" />
+    <ProjectReference Include="..\ResearchAtlas.Infrastructure.Embeddings.Ollama\ResearchAtlas.Infrastructure.Embeddings.Ollama.csproj" />
     <ProjectReference Include="..\ResearchAtlas.Infrastructure.Exporting.Csv\ResearchAtlas.Infrastructure.Exporting.Csv.csproj" />
     <ProjectReference Include="..\ResearchAtlas.Infrastructure.Exporting.Excel\ResearchAtlas.Infrastructure.Exporting.Excel.csproj" />
     <ProjectReference Include="..\ResearchAtlas.Infrastructure.Exporting.Pdf\ResearchAtlas.Infrastructure.Exporting.Pdf.csproj" />
