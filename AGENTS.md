@@ -60,7 +60,7 @@ Use English exclusively for project instructions, skills, class names, variables
 - A resolution is digitally signed by the issuing committee's chair and secretary and delivered to the applicant.
 
 
-## React Frontend
+## React Backend
 
 ## .NET Backend
 
@@ -84,6 +84,115 @@ Implements use cases and orchestrates domain behavior. Application services coor
 
 Defines contracts, commands, queries, DTOs, and interfaces consumed by hosts or infrastructure implementations. Use this project as the stable boundary for application capabilities.
 
+### Infrastructure
+
+#### Persistence
+
+##### `src/ResearchAtlas.Infrastructure.Persistence.SqlServer`
+
+Implements SQL Server persistence contracts, including data access, repository implementations, and database-specific mapping. Database details must stay in this project and never leak into domain code.
+
+#### Caching
+
+##### `src/ResearchAtlas.Infrastructure.Cache.Memory`
+
+Provides the in-memory implementation of cache persistence contracts. Use it for local development, tests, or deployments that do not require distributed caching.
+
+##### `src/ResearchAtlas.Infrastructure.Cache.Redis`
+
+Provides the Redis-backed implementation of cache persistence contracts. Keep Redis client and serialization details contained within this project.
+
+#### Storage
+
+##### `src/ResearchAtlas.Infrastructure.Storage.AzureBlob`
+
+Implements file and object storage using Azure Blob Storage. Azure SDK types and storage-specific behavior belong exclusively in this project.
+
+##### `src/ResearchAtlas.Infrastructure.Storage.FileSystem`
+
+Implements file and object storage on the local file system. Use it where local storage is appropriate without changing application or domain contracts.
+
+#### Identity
+
+##### `src/ResearchAtlas.Infrastructure.Identity.BuiltIn`
+
+Implements the built-in identity provider. Keep identity-provider-specific authentication and user-management behavior isolated from application and domain code.
+
+##### `src/ResearchAtlas.Infrastructure.Identity.EntraId`
+
+Implements identity integration with Microsoft Entra ID. Keep Entra ID SDK types, configuration, and protocol details contained in this project.
+
+##### `src/ResearchAtlas.Infrastructure.Identity.OpenIdConnect`
+
+Implements identity integration through OpenID Connect. Keep protocol-specific authentication and token-handling details contained in this project.
+
+##### `src/ResearchAtlas.Infrastructure.Identity.Saml`
+
+Implements identity integration through SAML. Keep SAML protocol, assertion, and provider-specific behavior contained in this project.
+
+#### Integration And Messaging
+
+##### `src/ResearchAtlas.Infrastructure.Messaging`
+
+Provides shared messaging infrastructure for publishing, consuming, and handling messages without exposing transport-specific concerns to the application layer.
+
+##### `src/ResearchAtlas.Infrastructure.Messaging.Email`
+
+Implements email delivery infrastructure. Keep email-provider configuration, message rendering, and transport-specific behavior contained in this project.
+
+##### `src/ResearchAtlas.Infrastructure.Remote.Http`
+
+Implements outbound HTTP integrations for remote services. Encapsulate HTTP client configuration, request handling, and remote DTO mapping here.
+
+##### `src/ResearchAtlas.Infrastructure.Remote.Sftp`
+
+Implements outbound SFTP integrations for remote file transfers. Keep SFTP client configuration, connection handling, and file transfer logic contained in this project.
+
+#### Platform Services
+
+##### `src/ResearchAtlas.Infrastructure.Cryptography`
+
+Implements cryptographic capabilities required by the application. Keep algorithm, key-management, and provider-specific details contained in this project.
+
+##### `src/ResearchAtlas.Infrastructure.ExpressionEvaluation`
+
+Implements evaluation of configured expressions. Keep expression-engine-specific behavior outside the domain and application layers.
+
+##### `src/ResearchAtlas.Infrastructure.JobScheduling.Hangfire`
+
+Implements Hangfire-backed background job scheduling. Keep Hangfire APIs, storage configuration, and scheduling mechanics contained in this project.
+
+##### `src/ResearchAtlas.Infrastructure.Pdf.DigitalSignature`
+
+Implements digital signing of PDF documents. Keep certificate, signature-provider, and PDF-library details contained in this project.
+
+##### `src/ResearchAtlas.Infrastructure.Templating`
+
+Implements document and message templating. Keep template-engine-specific rendering behavior contained in this project.
+
+#### Exporting
+
+##### `src/ResearchAtlas.Infrastructure.Exporting.Csv`
+
+Implements CSV export generation. Keep format-specific serialization details contained in this project.
+
+##### `src/ResearchAtlas.Infrastructure.Exporting.Excel`
+
+Implements Excel export generation. Keep spreadsheet-library and format-specific details contained in this project.
+
+##### `src/ResearchAtlas.Infrastructure.Exporting.Pdf`
+
+Implements PDF export generation. Keep PDF-library and format-specific details contained in this project.
+
+
+### Database Tooling
+
+#### `src/ResearchAtlas.Database.Migrations.SqlServer`
+
+Contains the versioned SQL Server schema migrations and migration definitions. Add a new migration for every schema change; never alter migrations that may already have been applied.
+
+### Bootstrap And Shared Components
+
 #### `src/ResearchAtlas.Configuration`
 
 Contains strongly typed configuration models and options definitions shared by hosts and service-registration code. Do not place secrets or environment-specific configuration values here.
@@ -97,69 +206,47 @@ Centralizes dependency-injection registration for application and infrastructure
 Provides small, reusable extension methods and helpers with no specific host responsibility. Keep additions cohesive and avoid turning this project into a dependency for unrelated business logic.
 
 
-### Infrastructure
-
-
-#### `src/ResearchAtlas.Infrastructure.Persistence.SqlServer`
-
-Implements SQL Server persistence contracts, including data access, repository implementations, and database-specific mapping. Database details must stay in this project and never leak into domain code.
-
-#### `src/ResearchAtlas.Infrastructure.Cache.Memory`
-
-Provides the in-memory implementation of cache persistence contracts. Use it for local development, tests, or deployments that do not require distributed caching.
-
-#### `src/ResearchAtlas.Infrastructure.Cache.Redis`
-
-Provides the Redis-backed implementation of cache persistence contracts. Keep Redis client and serialization details contained within this project.
-
-#### `src/ResearchAtlas.Infrastructure.Storage.AzureBlob`
-
-Implements file and object storage using Azure Blob Storage. Azure SDK types and storage-specific behavior belong exclusively in this project.
-
-#### `src/ResearchAtlas.Infrastructure.Storage.FileSystem`
-
-Implements file and object storage on the local file system. Use it where local storage is appropriate without changing application or domain contracts.
-
-#### `src/ResearchAtlas.Infrastructure.Identity.BuiltIn`
-
-Implements the built-in identity provider. Keep identity-provider-specific authentication and user-management behavior isolated from application and domain code.
-
-#### `src/ResearchAtlas.Infrastructure.Identity.EntraId`
-
-Implements identity integration with Microsoft Entra ID. Keep Entra ID SDK types, configuration, and protocol details contained in this project.
-
-#### `src/ResearchAtlas.Infrastructure.Identity.OpenIdConnect`
-
-Implements identity integration through OpenID Connect. Keep protocol-specific authentication and token-handling details contained in this project.
-
-#### `src/ResearchAtlas.Infrastructure.Identity.Saml`
-
-Implements identity integration through SAML. Keep SAML protocol, assertion, and provider-specific behavior contained in this project.
-
-#### `src/ResearchAtlas.Infrastructure.Remote.Http`
-
-Implements outbound HTTP integrations for remote services. Encapsulate HTTP client configuration, request handling, and remote DTO mapping here.
-
-#### `src/ResearchAtlas.Infrastructure.Remote.Sftp`
-
-Implements outbound SFTP integrations for remote file transfers. Keep SFTP client configuration, connection handling, and file transfer logic contained in this project.
-
-
-### Database Tooling
-
-#### `src/ResearchAtlas.Database.Migrations.SqlServer`
-
-Contains the versioned SQL Server schema migrations and migration definitions. Add a new migration for every schema change; never alter migrations that may already have been applied.
-
 ### Hosts
 
 #### `src/ResearchAtlas.Api`
 
 ASP.NET Core Web API host that exposes HTTP endpoints and OpenAPI documentation. It uses Serilog for host logging and composes backend services; keep `Program.cs` limited to host configuration and composition.
 
+#### `src/ResearchAtlas.Luna`
+
+Public-facing ASP.NET Core web host for research profiles. It composes backend services and owns only Luna-specific delivery concerns.
+
+#### `src/ResearchAtlas.Terra`
+
+Internal ASP.NET Core web host for managing research profiles and evaluation workflows. It composes backend services and owns only Terra-specific delivery concerns.
+
 #### `src/ResearchAtlas.Worker`
 
 Executable host for scheduled, queued, and long-running background work. It uses Serilog for host logging. Background job orchestration belongs here; reusable application behavior belongs in the application layer.
+
+### Tools
+
+#### `tools/ResearchAtlas.Database.Migrator.SqlServer`
+
+Executable tool that applies SQL Server database migrations. Keep command-line orchestration here and migration definitions in `ResearchAtlas.Database.Migrations.SqlServer`.
+
+### Testing
+
+#### `tests/ResearchAtlas.Domain.Tests`
+
+Contains automated tests for domain behavior and invariants.
+
+#### `tests/ResearchAtlas.Application.Tests`
+
+Contains automated tests for application use cases and orchestration.
+
+#### `tests/ResearchAtlas.Integration.Tests`
+
+Contains automated integration tests spanning application boundaries and infrastructure implementations.
+
+#### `tests/ResearchAtlas.Terra.Tests`
+
+Contains automated tests for Terra-specific behavior.
 
 ### Architecture Rules
 
