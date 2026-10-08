@@ -61,6 +61,8 @@
   <Folder Name="/08. Testing/">
     <Project Path="tests/ResearchAtlas.Application.Tests/ResearchAtlas.Application.Tests.csproj" Id="7154ab37-b83e-4d5f-9eee-6a7f285218f5" />
     <Project Path="tests/ResearchAtlas.Domain.Tests/ResearchAtlas.Domain.Tests.csproj" Id="2422c47e-d32b-4294-9c19-215ea828b74b" />
+    <Project Path="tests/ResearchAtlas.Integration.Tests/ResearchAtlas.Integration.Tests.csproj" Id="1c43a933-7981-4582-885c-a09dc47b965e" />
+    <Project Path="tests/ResearchAtlas.Terra.Tests/ResearchAtlas.Terra.Tests.csproj" Id="70582b48-8fb2-405c-a697-f718bb460d25" />
   </Folder>
   <Folder Name="/09. Agents/">
     <File Path=".github/copilot-instructions.md" />
