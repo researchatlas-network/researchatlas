@@ -23,4 +23,9 @@
     <ProjectReference Include="..\..\src\ResearchAtlas.Terra\ResearchAtlas.Terra.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Controllers\" />
+    <Folder Include="Routing\" />
+  </ItemGroup>
+
 </Project>

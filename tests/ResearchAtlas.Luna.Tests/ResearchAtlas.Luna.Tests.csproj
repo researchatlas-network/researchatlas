@@ -23,4 +23,9 @@
     <ProjectReference Include="..\..\src\ResearchAtlas.Luna\ResearchAtlas.Luna.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Controllers\" />
+    <Folder Include="Routing\" />
+  </ItemGroup>
+
 </Project>
