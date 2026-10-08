@@ -12,6 +12,15 @@ Open-source platform for managing evaluation processes in universities and resea
 
 ## Installation
 
+## License
+
+ResearchAtlas is licensed under the [GNU Affero General Public License v3.0](LICENSE).
+When a modified version is made available for use over a network, the corresponding
+source code must be offered to its users as required by the AGPL-3.0.
+
+Third-party software notices and license information are available in
+[THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
+
 ## Contributing
 
 Contributions are welcome. See the [contribution guide](CONTRIBUTING.md) for

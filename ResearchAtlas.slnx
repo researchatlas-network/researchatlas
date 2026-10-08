@@ -75,5 +75,6 @@
     <File Path="LICENSE" />
     <File Path="README.md" />
     <File Path="SECURITY.md" />
+    <File Path="THIRD_PARTY_NOTICES.md" />
   </Folder>
 </Solution>
