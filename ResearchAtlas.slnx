@@ -6,16 +6,16 @@
     <Project Path="src/ResearchAtlas.Configuration/ResearchAtlas.Configuration.csproj" Id="acf187b5-ab40-4401-917f-ad5522cf9643" />
     <Project Path="src/ResearchAtlas.DependencyInjection/ResearchAtlas.DependencyInjection.csproj" Id="69c0134f-23a3-43a8-ab53-d18ee4929674" />
   </Folder>
-  <Folder Name="/1. Presentation/">
+  <Folder Name="/2. Presentation/">
     <Project Path="src/ResearchAtlas.Luna/ResearchAtlas.Luna.csproj" Id="5b55d3ea-0102-40d9-88e9-9fc4017363dd" />
     <Project Path="src/ResearchAtlas.Sol/ResearchAtlas.Sol.csproj" Id="8935a613-d626-46be-912b-2d930be4e2c9" />
     <Project Path="src/ResearchAtlas.Terra/ResearchAtlas.Terra.csproj" Id="5a4110c9-5832-4bbb-9e24-9d9aaefa9231" />
   </Folder>
-  <Folder Name="/2. Application/">
+  <Folder Name="/3. Application/">
     <Project Path="src/ResearchAtlas.Application.Abstractions/ResearchAtlas.Application.Abstractions.csproj" Id="c4c14d56-e4c2-4885-a3d4-f4345f87c3ed" />
     <Project Path="src/ResearchAtlas.Application/ResearchAtlas.Application.csproj" Id="8e8479a5-9a1a-4cb8-b1aa-7d7f604bb710" />
   </Folder>
-  <Folder Name="/3. Domain/">
+  <Folder Name="/4. Domain/">
     <Project Path="src/ResearchAtlas.Domain.Abstractions/ResearchAtlas.Domain.Abstractions.csproj" Id="c6268a6d-21ad-4b3d-b0ab-c47f08d22378" />
     <Project Path="src/ResearchAtlas.Domain/ResearchAtlas.Domain.csproj" />
   </Folder>
@@ -39,7 +39,7 @@
     <Project Path="src/ResearchAtlas.Infrastructure.Storage.FileSystem/ResearchAtlas.Infrastructure.Storage.FileSystem.csproj" Id="b4451f68-56d0-4783-b18f-f031c565e32b" />
     <Project Path="src/ResearchAtlas.Infrastructure.Templating/ResearchAtlas.Infrastructure.Templating.csproj" Id="d3fd8733-6e71-4314-8b57-a081d5ea69d2" />
   </Folder>
-  <Folder Name="/5. Database/">
+  <Folder Name="/6. Database/">
     <Project Path="src/ResearchAtlas.Database.Migrations.SqlServer/ResearchAtlas.Database.Migrations.SqlServer.csproj" Id="764e2ef1-16fb-411c-9fe3-5fce2f4fd53e" />
   </Folder>
 </Solution>
