@@ -1,31 +1,45 @@
 <Solution>
-  <Project Path="src/ResearchAtlas.Application.Abstractions/ResearchAtlas.Application.Abstractions.csproj" Id="c4c14d56-e4c2-4885-a3d4-f4345f87c3ed" />
-  <Project Path="src/ResearchAtlas.Application/ResearchAtlas.Application.csproj" Id="8e8479a5-9a1a-4cb8-b1aa-7d7f604bb710" />
-  <Project Path="src/ResearchAtlas.Configuration/ResearchAtlas.Configuration.csproj" Id="acf187b5-ab40-4401-917f-ad5522cf9643" />
-  <Project Path="src/ResearchAtlas.Database.Migrations.SqlServer/ResearchAtlas.Database.Migrations.SqlServer.csproj" Id="764e2ef1-16fb-411c-9fe3-5fce2f4fd53e" />
-  <Project Path="src/ResearchAtlas.DependencyInjection/ResearchAtlas.DependencyInjection.csproj" Id="69c0134f-23a3-43a8-ab53-d18ee4929674" />
-  <Project Path="src/ResearchAtlas.Domain.Abstractions/ResearchAtlas.Domain.Abstractions.csproj" Id="c6268a6d-21ad-4b3d-b0ab-c47f08d22378" />
-  <Project Path="src/ResearchAtlas.Domain/ResearchAtlas.Domain.csproj" />
-  <Project Path="src/ResearchAtlas.Extensions/ResearchAtlas.Extensions.csproj" Id="8273084c-4719-4f83-baed-385149f25b09" />
-  <Project Path="src/ResearchAtlas.Infrastructure.Cache.Memory/ResearchAtlas.Infrastructure.Cache.Memory.csproj" Id="a02bcd06-999d-4e5e-9d02-c7b9dc5758e8" />
-  <Project Path="src/ResearchAtlas.Infrastructure.Cache.Redis/ResearchAtlas.Infrastructure.Cache.Redis.csproj" Id="478e1f41-a50f-48bb-8451-2cbef5bb34a4" />
-  <Project Path="src/ResearchAtlas.Infrastructure.Cryptography/ResearchAtlas.Infrastructure.Cryptography.csproj" Id="f6989715-36aa-4e39-99e6-b6b0882091f6" />
-  <Project Path="src/ResearchAtlas.Infrastructure.Exporting.Csv/ResearchAtlas.Infrastructure.Exporting.Csv.csproj" Id="9e9436d3-1c57-499c-849e-2f4899545e8a" />
-  <Project Path="src/ResearchAtlas.Infrastructure.Exporting.Excel/ResearchAtlas.Infrastructure.Exporting.Excel.csproj" Id="b80417f4-e300-4425-aace-4adafb892cda" />
-  <Project Path="src/ResearchAtlas.Infrastructure.Exporting.Pdf/ResearchAtlas.Infrastructure.Exporting.Pdf.csproj" Id="546a76cd-fb03-4bbd-92f4-4a86a9c768f4" />
-  <Project Path="src/ResearchAtlas.Infrastructure.ExpressionEvaluation/ResearchAtlas.Infrastructure.ExpressionEvaluation.csproj" Id="826aef1f-34e6-407d-98b8-8a3c0099fd15" />
-  <Project Path="src/ResearchAtlas.Infrastructure.Identity.BuiltIn/ResearchAtlas.Infrastructure.Identity.BuiltIn.csproj" Id="53c63d61-8044-4ee4-8e6d-e97bc6c606f7" />
-  <Project Path="src/ResearchAtlas.Infrastructure.Identity.EntraId/ResearchAtlas.Infrastructure.Identity.EntraId.csproj" Id="1493f7ce-59a2-4383-8453-e9958752fd89" />
-  <Project Path="src/ResearchAtlas.Infrastructure.Identity.OpenIdConnect/ResearchAtlas.Infrastructure.Identity.OpenIdConnect.csproj" Id="e5b66949-6c04-4bbb-b43a-2830922fa919" />
-  <Project Path="src/ResearchAtlas.Infrastructure.Identity.Saml/ResearchAtlas.Infrastructure.Identity.Saml.csproj" Id="83548850-fab2-4686-b268-9dbf274338f6" />
-  <Project Path="src/ResearchAtlas.Infrastructure.Pdf.DigitalSignature/ResearchAtlas.Infrastructure.Pdf.DigitalSignature.csproj" Id="85005e6f-a344-409e-8d16-d98a3adcb354" />
-  <Project Path="src/ResearchAtlas.Infrastructure.Persistence.SqlServer/ResearchAtlas.Infrastructure.Persistence.SqlServer.csproj" Id="f91d9074-a126-4e16-a2ab-a1b949c16654" />
-  <Project Path="src/ResearchAtlas.Infrastructure.Remote.Http/ResearchAtlas.Infrastructure.Remote.Http.csproj" Id="d3d0c344-8b9d-47c2-ac9d-4da5d42a8150" />
-  <Project Path="src/ResearchAtlas.Infrastructure.Remote.Sftp/ResearchAtlas.Infrastructure.Remote.Sftp.csproj" Id="74caf99b-a6e6-47ef-86e1-86544c17fb2c" />
-  <Project Path="src/ResearchAtlas.Infrastructure.Storage.AzureBlob/ResearchAtlas.Infrastructure.Storage.AzureBlob.csproj" Id="b07c495a-ea1b-4d04-a62b-8af4dba38066" />
-  <Project Path="src/ResearchAtlas.Infrastructure.Storage.FileSystem/ResearchAtlas.Infrastructure.Storage.FileSystem.csproj" Id="b4451f68-56d0-4783-b18f-f031c565e32b" />
-  <Project Path="src/ResearchAtlas.Infrastructure.Templating/ResearchAtlas.Infrastructure.Templating.csproj" Id="d3fd8733-6e71-4314-8b57-a081d5ea69d2" />
-  <Project Path="src/ResearchAtlas.Luna/ResearchAtlas.Luna.csproj" Id="5b55d3ea-0102-40d9-88e9-9fc4017363dd" />
-  <Project Path="src/ResearchAtlas.Sol/ResearchAtlas.Sol.csproj" Id="8935a613-d626-46be-912b-2d930be4e2c9" />
-  <Project Path="src/ResearchAtlas.Terra/ResearchAtlas.Terra.csproj" Id="5a4110c9-5832-4bbb-9e24-9d9aaefa9231" />
+  <Folder Name="/0. Kernel/">
+    <Project Path="src/ResearchAtlas.Extensions/ResearchAtlas.Extensions.csproj" Id="8273084c-4719-4f83-baed-385149f25b09" />
+  </Folder>
+  <Folder Name="/1. Bootstrap/">
+    <Project Path="src/ResearchAtlas.Configuration/ResearchAtlas.Configuration.csproj" Id="acf187b5-ab40-4401-917f-ad5522cf9643" />
+    <Project Path="src/ResearchAtlas.DependencyInjection/ResearchAtlas.DependencyInjection.csproj" Id="69c0134f-23a3-43a8-ab53-d18ee4929674" />
+  </Folder>
+  <Folder Name="/1. Presentation/">
+    <Project Path="src/ResearchAtlas.Luna/ResearchAtlas.Luna.csproj" Id="5b55d3ea-0102-40d9-88e9-9fc4017363dd" />
+    <Project Path="src/ResearchAtlas.Sol/ResearchAtlas.Sol.csproj" Id="8935a613-d626-46be-912b-2d930be4e2c9" />
+    <Project Path="src/ResearchAtlas.Terra/ResearchAtlas.Terra.csproj" Id="5a4110c9-5832-4bbb-9e24-9d9aaefa9231" />
+  </Folder>
+  <Folder Name="/2. Application/">
+    <Project Path="src/ResearchAtlas.Application.Abstractions/ResearchAtlas.Application.Abstractions.csproj" Id="c4c14d56-e4c2-4885-a3d4-f4345f87c3ed" />
+    <Project Path="src/ResearchAtlas.Application/ResearchAtlas.Application.csproj" Id="8e8479a5-9a1a-4cb8-b1aa-7d7f604bb710" />
+  </Folder>
+  <Folder Name="/3. Domain/">
+    <Project Path="src/ResearchAtlas.Domain.Abstractions/ResearchAtlas.Domain.Abstractions.csproj" Id="c6268a6d-21ad-4b3d-b0ab-c47f08d22378" />
+    <Project Path="src/ResearchAtlas.Domain/ResearchAtlas.Domain.csproj" />
+  </Folder>
+  <Folder Name="/4. Infrastructure/">
+    <Project Path="src/ResearchAtlas.Infrastructure.Cache.Memory/ResearchAtlas.Infrastructure.Cache.Memory.csproj" Id="a02bcd06-999d-4e5e-9d02-c7b9dc5758e8" />
+    <Project Path="src/ResearchAtlas.Infrastructure.Cache.Redis/ResearchAtlas.Infrastructure.Cache.Redis.csproj" Id="478e1f41-a50f-48bb-8451-2cbef5bb34a4" />
+    <Project Path="src/ResearchAtlas.Infrastructure.Cryptography/ResearchAtlas.Infrastructure.Cryptography.csproj" Id="f6989715-36aa-4e39-99e6-b6b0882091f6" />
+    <Project Path="src/ResearchAtlas.Infrastructure.Exporting.Csv/ResearchAtlas.Infrastructure.Exporting.Csv.csproj" Id="9e9436d3-1c57-499c-849e-2f4899545e8a" />
+    <Project Path="src/ResearchAtlas.Infrastructure.Exporting.Excel/ResearchAtlas.Infrastructure.Exporting.Excel.csproj" Id="b80417f4-e300-4425-aace-4adafb892cda" />
+    <Project Path="src/ResearchAtlas.Infrastructure.Exporting.Pdf/ResearchAtlas.Infrastructure.Exporting.Pdf.csproj" Id="546a76cd-fb03-4bbd-92f4-4a86a9c768f4" />
+    <Project Path="src/ResearchAtlas.Infrastructure.ExpressionEvaluation/ResearchAtlas.Infrastructure.ExpressionEvaluation.csproj" Id="826aef1f-34e6-407d-98b8-8a3c0099fd15" />
+    <Project Path="src/ResearchAtlas.Infrastructure.Identity.BuiltIn/ResearchAtlas.Infrastructure.Identity.BuiltIn.csproj" Id="53c63d61-8044-4ee4-8e6d-e97bc6c606f7" />
+    <Project Path="src/ResearchAtlas.Infrastructure.Identity.EntraId/ResearchAtlas.Infrastructure.Identity.EntraId.csproj" Id="1493f7ce-59a2-4383-8453-e9958752fd89" />
+    <Project Path="src/ResearchAtlas.Infrastructure.Identity.OpenIdConnect/ResearchAtlas.Infrastructure.Identity.OpenIdConnect.csproj" Id="e5b66949-6c04-4bbb-b43a-2830922fa919" />
+    <Project Path="src/ResearchAtlas.Infrastructure.Identity.Saml/ResearchAtlas.Infrastructure.Identity.Saml.csproj" Id="83548850-fab2-4686-b268-9dbf274338f6" />
+    <Project Path="src/ResearchAtlas.Infrastructure.Pdf.DigitalSignature/ResearchAtlas.Infrastructure.Pdf.DigitalSignature.csproj" Id="85005e6f-a344-409e-8d16-d98a3adcb354" />
+    <Project Path="src/ResearchAtlas.Infrastructure.Persistence.SqlServer/ResearchAtlas.Infrastructure.Persistence.SqlServer.csproj" Id="f91d9074-a126-4e16-a2ab-a1b949c16654" />
+    <Project Path="src/ResearchAtlas.Infrastructure.Remote.Http/ResearchAtlas.Infrastructure.Remote.Http.csproj" Id="d3d0c344-8b9d-47c2-ac9d-4da5d42a8150" />
+    <Project Path="src/ResearchAtlas.Infrastructure.Remote.Sftp/ResearchAtlas.Infrastructure.Remote.Sftp.csproj" Id="74caf99b-a6e6-47ef-86e1-86544c17fb2c" />
+    <Project Path="src/ResearchAtlas.Infrastructure.Storage.AzureBlob/ResearchAtlas.Infrastructure.Storage.AzureBlob.csproj" Id="b07c495a-ea1b-4d04-a62b-8af4dba38066" />
+    <Project Path="src/ResearchAtlas.Infrastructure.Storage.FileSystem/ResearchAtlas.Infrastructure.Storage.FileSystem.csproj" Id="b4451f68-56d0-4783-b18f-f031c565e32b" />
+    <Project Path="src/ResearchAtlas.Infrastructure.Templating/ResearchAtlas.Infrastructure.Templating.csproj" Id="d3fd8733-6e71-4314-8b57-a081d5ea69d2" />
+  </Folder>
+  <Folder Name="/5. Database/">
+    <Project Path="src/ResearchAtlas.Database.Migrations.SqlServer/ResearchAtlas.Database.Migrations.SqlServer.csproj" Id="764e2ef1-16fb-411c-9fe3-5fce2f4fd53e" />
+  </Folder>
 </Solution>
