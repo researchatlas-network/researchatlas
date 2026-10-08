@@ -4,4 +4,5 @@
   <Project Path="src/ResearchAtlas.Configuration/ResearchAtlas.Configuration.csproj" Id="acf187b5-ab40-4401-917f-ad5522cf9643" />
   <Project Path="src/ResearchAtlas.DependencyInjection/ResearchAtlas.DependencyInjection.csproj" Id="69c0134f-23a3-43a8-ab53-d18ee4929674" />
   <Project Path="src/ResearchAtlas.Domain/ResearchAtlas.Domain.csproj" />
+  <Project Path="src/ResearchAtlas.Infrastructure.Persistence.SqlServer/ResearchAtlas.Infrastructure.Persistence.SqlServer.csproj" Id="f91d9074-a126-4e16-a2ab-a1b949c16654" />
 </Solution>
