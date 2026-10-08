@@ -13,6 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\ResearchAtlas.Application.Abstractions\ResearchAtlas.Application.Abstractions.csproj" />
     <ProjectReference Include="..\ResearchAtlas.Domain\ResearchAtlas.Domain.csproj" />
   </ItemGroup>
 
