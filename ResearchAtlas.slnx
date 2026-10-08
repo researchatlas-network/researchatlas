@@ -7,4 +7,6 @@
   <Project Path="src/ResearchAtlas.Infrastructure.Persistence.SqlServer/ResearchAtlas.Infrastructure.Persistence.SqlServer.csproj" Id="f91d9074-a126-4e16-a2ab-a1b949c16654" />
   <Project Path="src/ResearchAtlas.Infrastructure.Remote.Http/ResearchAtlas.Infrastructure.Remote.Http.csproj" Id="d3d0c344-8b9d-47c2-ac9d-4da5d42a8150" />
   <Project Path="src/ResearchAtlas.Infrastructure.Remote.Sftp/ResearchAtlas.Infrastructure.Remote.Sftp.csproj" Id="74caf99b-a6e6-47ef-86e1-86544c17fb2c" />
+  <Project Path="src/ResearchAtlas.Infrastructure.Storage.AzureBlob/ResearchAtlas.Infrastructure.Storage.AzureBlob.csproj" Id="b07c495a-ea1b-4d04-a62b-8af4dba38066" />
+  <Project Path="src/ResearchAtlas.Infrastructure.Storage.FileSystem/ResearchAtlas.Infrastructure.Storage.FileSystem.csproj" Id="b4451f68-56d0-4783-b18f-f031c565e32b" />
 </Solution>
