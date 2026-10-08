@@ -62,6 +62,14 @@ Use English exclusively for project instructions, skills, class names, variables
 
 ## React Backend
 
+#### `src/ResearchAtlas.Luna.Client`
+
+Provides the React client application for Luna, the public-facing research profile experience. It uses Vite, React, and Tailwind CSS. Keep public UI, routing, and client-side integrations contained within this project. During its build, the generated files are copied to `src/ResearchAtlas.Luna/wwwroot` for delivery by the Luna host.
+
+#### `src/ResearchAtlas.Terra.Client`
+
+Provides the React client application for Terra, the internal experience for managing research profiles and evaluation workflows. It uses Vite, React, and Tailwind CSS. Keep Terra-specific UI, routing, and client-side integrations contained within this project. During its build, the generated files are copied to `src/ResearchAtlas.Terra/wwwroot` for delivery by the Terra host.
+
 ## .NET Backend
 
 ### Domain
