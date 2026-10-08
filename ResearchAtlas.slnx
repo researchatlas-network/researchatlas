@@ -22,12 +22,12 @@
   </Folder>
   <Folder Name="/05. Infrastructure/" />
   <Folder Name="/05. Infrastructure/05.1. Persistence/">
-    <Project Path="src/ResearchAtlas.Infrastructure.Cryptography/ResearchAtlas.Infrastructure.Cryptography.csproj" Id="f6989715-36aa-4e39-99e6-b6b0882091f6" />
     <Project Path="src/ResearchAtlas.Infrastructure.Persistence.SqlServer/ResearchAtlas.Infrastructure.Persistence.SqlServer.csproj" Id="f91d9074-a126-4e16-a2ab-a1b949c16654" />
     <Project Path="src/ResearchAtlas.Infrastructure.Storage.AzureBlob/ResearchAtlas.Infrastructure.Storage.AzureBlob.csproj" Id="b07c495a-ea1b-4d04-a62b-8af4dba38066" />
     <Project Path="src/ResearchAtlas.Infrastructure.Storage.FileSystem/ResearchAtlas.Infrastructure.Storage.FileSystem.csproj" Id="b4451f68-56d0-4783-b18f-f031c565e32b" />
   </Folder>
   <Folder Name="/05. Infrastructure/05.2. Platform/">
+    <Project Path="src/ResearchAtlas.Infrastructure.Cryptography/ResearchAtlas.Infrastructure.Cryptography.csproj" Id="f6989715-36aa-4e39-99e6-b6b0882091f6" />
     <Project Path="src/ResearchAtlas.Infrastructure.Exporting.Csv/ResearchAtlas.Infrastructure.Exporting.Csv.csproj" Id="9e9436d3-1c57-499c-849e-2f4899545e8a" />
     <Project Path="src/ResearchAtlas.Infrastructure.Exporting.Excel/ResearchAtlas.Infrastructure.Exporting.Excel.csproj" Id="b80417f4-e300-4425-aace-4adafb892cda" />
     <Project Path="src/ResearchAtlas.Infrastructure.Exporting.Pdf/ResearchAtlas.Infrastructure.Exporting.Pdf.csproj" Id="546a76cd-fb03-4bbd-92f4-4a86a9c768f4" />
