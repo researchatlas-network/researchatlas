@@ -32,6 +32,7 @@
     <Project Path="src/ResearchAtlas.Infrastructure.Exporting.Excel/ResearchAtlas.Infrastructure.Exporting.Excel.csproj" Id="b80417f4-e300-4425-aace-4adafb892cda" />
     <Project Path="src/ResearchAtlas.Infrastructure.Exporting.Pdf/ResearchAtlas.Infrastructure.Exporting.Pdf.csproj" Id="546a76cd-fb03-4bbd-92f4-4a86a9c768f4" />
     <Project Path="src/ResearchAtlas.Infrastructure.ExpressionEvaluation/ResearchAtlas.Infrastructure.ExpressionEvaluation.csproj" Id="826aef1f-34e6-407d-98b8-8a3c0099fd15" />
+    <Project Path="src/ResearchAtlas.Infrastructure.Messaging/ResearchAtlas.Infrastructure.Messaging.csproj" Id="4701a41a-83a4-431a-8dce-180df2568b35" />
     <Project Path="src/ResearchAtlas.Infrastructure.Pdf.DigitalSignature/ResearchAtlas.Infrastructure.Pdf.DigitalSignature.csproj" Id="85005e6f-a344-409e-8d16-d98a3adcb354" />
     <Project Path="src/ResearchAtlas.Infrastructure.Templating/ResearchAtlas.Infrastructure.Templating.csproj" Id="d3fd8733-6e71-4314-8b57-a081d5ea69d2" />
   </Folder>
@@ -42,6 +43,7 @@
     <Project Path="src/ResearchAtlas.Infrastructure.Identity.Saml/ResearchAtlas.Infrastructure.Identity.Saml.csproj" Id="83548850-fab2-4686-b268-9dbf274338f6" />
   </Folder>
   <Folder Name="/05. Infrastructure/05.4. Integration/">
+    <Project Path="src/ResearchAtlas.Infrastructure.Messaging.Email/ResearchAtlas.Infrastructure.Messaging.Email.csproj" Id="24c7e51e-d821-4acf-9fdc-b445c4a7456f" />
     <Project Path="src/ResearchAtlas.Infrastructure.Remote.Http/ResearchAtlas.Infrastructure.Remote.Http.csproj" Id="d3d0c344-8b9d-47c2-ac9d-4da5d42a8150" />
     <Project Path="src/ResearchAtlas.Infrastructure.Remote.Sftp/ResearchAtlas.Infrastructure.Remote.Sftp.csproj" Id="74caf99b-a6e6-47ef-86e1-86544c17fb2c" />
   </Folder>
