@@ -13,6 +13,7 @@
   <Project Path="src/ResearchAtlas.Infrastructure.Exporting.Csv/ResearchAtlas.Infrastructure.Exporting.Csv.csproj" Id="9e9436d3-1c57-499c-849e-2f4899545e8a" />
   <Project Path="src/ResearchAtlas.Infrastructure.Exporting.Excel/ResearchAtlas.Infrastructure.Exporting.Excel.csproj" Id="b80417f4-e300-4425-aace-4adafb892cda" />
   <Project Path="src/ResearchAtlas.Infrastructure.Exporting.Pdf/ResearchAtlas.Infrastructure.Exporting.Pdf.csproj" Id="546a76cd-fb03-4bbd-92f4-4a86a9c768f4" />
+  <Project Path="src/ResearchAtlas.Infrastructure.ExpressionEvaluation/ResearchAtlas.Infrastructure.ExpressionEvaluation.csproj" Id="826aef1f-34e6-407d-98b8-8a3c0099fd15" />
   <Project Path="src/ResearchAtlas.Infrastructure.Identity.BuiltIn/ResearchAtlas.Infrastructure.Identity.BuiltIn.csproj" Id="53c63d61-8044-4ee4-8e6d-e97bc6c606f7" />
   <Project Path="src/ResearchAtlas.Infrastructure.Identity.EntraId/ResearchAtlas.Infrastructure.Identity.EntraId.csproj" Id="1493f7ce-59a2-4383-8453-e9958752fd89" />
   <Project Path="src/ResearchAtlas.Infrastructure.Identity.OpenIdConnect/ResearchAtlas.Infrastructure.Identity.OpenIdConnect.csproj" Id="e5b66949-6c04-4bbb-b43a-2830922fa919" />
