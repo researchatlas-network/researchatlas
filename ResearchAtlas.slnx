@@ -32,6 +32,7 @@
     <Project Path="src/ResearchAtlas.Infrastructure.Exporting.Excel/ResearchAtlas.Infrastructure.Exporting.Excel.csproj" Id="b80417f4-e300-4425-aace-4adafb892cda" />
     <Project Path="src/ResearchAtlas.Infrastructure.Exporting.Pdf/ResearchAtlas.Infrastructure.Exporting.Pdf.csproj" Id="546a76cd-fb03-4bbd-92f4-4a86a9c768f4" />
     <Project Path="src/ResearchAtlas.Infrastructure.ExpressionEvaluation/ResearchAtlas.Infrastructure.ExpressionEvaluation.csproj" Id="826aef1f-34e6-407d-98b8-8a3c0099fd15" />
+    <Project Path="src/ResearchAtlas.Infrastructure.JobScheduling.Hangfire/ResearchAtlas.Infrastructure.JobScheduling.Hangfire.csproj" Id="1581e05c-4927-41a1-9dec-894504b2ce10" />
     <Project Path="src/ResearchAtlas.Infrastructure.Messaging/ResearchAtlas.Infrastructure.Messaging.csproj" Id="4701a41a-83a4-431a-8dce-180df2568b35" />
     <Project Path="src/ResearchAtlas.Infrastructure.Pdf.DigitalSignature/ResearchAtlas.Infrastructure.Pdf.DigitalSignature.csproj" Id="85005e6f-a344-409e-8d16-d98a3adcb354" />
     <Project Path="src/ResearchAtlas.Infrastructure.Templating/ResearchAtlas.Infrastructure.Templating.csproj" Id="d3fd8733-6e71-4314-8b57-a081d5ea69d2" />
