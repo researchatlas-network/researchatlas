@@ -7,6 +7,18 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Localization\Shared\ca.json" />
+    <None Remove="Localization\Shared\en.json" />
+    <None Remove="Localization\Shared\es.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Localization\Shared\ca.json" />
+    <EmbeddedResource Include="Localization\Shared\en.json" />
+    <EmbeddedResource Include="Localization\Shared\es.json" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Autofac" Version="9.3.4" />
     <PackageReference Include="Humanizer.Core" Version="3.0.10" />
     <PackageReference Include="Humanizer.Core.ca" Version="3.0.10" />
@@ -17,6 +29,10 @@
 
   <ItemGroup>
     <ProjectReference Include="..\ResearchAtlas.Application.Abstractions\ResearchAtlas.Application.Abstractions.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Rendering\" />
   </ItemGroup>
 
 </Project>
