@@ -3,6 +3,7 @@
   <Project Path="src/ResearchAtlas.Application/ResearchAtlas.Application.csproj" Id="8e8479a5-9a1a-4cb8-b1aa-7d7f604bb710" />
   <Project Path="src/ResearchAtlas.Configuration/ResearchAtlas.Configuration.csproj" Id="acf187b5-ab40-4401-917f-ad5522cf9643" />
   <Project Path="src/ResearchAtlas.DependencyInjection/ResearchAtlas.DependencyInjection.csproj" Id="69c0134f-23a3-43a8-ab53-d18ee4929674" />
+  <Project Path="src/ResearchAtlas.Domain.Abstractions/ResearchAtlas.Domain.Abstractions.csproj" Id="c6268a6d-21ad-4b3d-b0ab-c47f08d22378" />
   <Project Path="src/ResearchAtlas.Domain/ResearchAtlas.Domain.csproj" />
   <Project Path="src/ResearchAtlas.Infrastructure.Persistence.SqlServer/ResearchAtlas.Infrastructure.Persistence.SqlServer.csproj" Id="f91d9074-a126-4e16-a2ab-a1b949c16654" />
   <Project Path="src/ResearchAtlas.Infrastructure.Remote.Http/ResearchAtlas.Infrastructure.Remote.Http.csproj" Id="d3d0c344-8b9d-47c2-ac9d-4da5d42a8150" />
