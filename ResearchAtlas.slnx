@@ -5,4 +5,6 @@
   <Project Path="src/ResearchAtlas.DependencyInjection/ResearchAtlas.DependencyInjection.csproj" Id="69c0134f-23a3-43a8-ab53-d18ee4929674" />
   <Project Path="src/ResearchAtlas.Domain/ResearchAtlas.Domain.csproj" />
   <Project Path="src/ResearchAtlas.Infrastructure.Persistence.SqlServer/ResearchAtlas.Infrastructure.Persistence.SqlServer.csproj" Id="f91d9074-a126-4e16-a2ab-a1b949c16654" />
+  <Project Path="src/ResearchAtlas.Infrastructure.Remote.Http/ResearchAtlas.Infrastructure.Remote.Http.csproj" Id="d3d0c344-8b9d-47c2-ac9d-4da5d42a8150" />
+  <Project Path="src/ResearchAtlas.Infrastructure.Remote.Sftp/ResearchAtlas.Infrastructure.Remote.Sftp.csproj" Id="74caf99b-a6e6-47ef-86e1-86544c17fb2c" />
 </Solution>
