@@ -11,4 +11,9 @@
     <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="10.0.12" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ResearchAtlas.Application.Abstractions\ResearchAtlas.Application.Abstractions.csproj" />
+    <ProjectReference Include="..\ResearchAtlas.Domain\ResearchAtlas.Domain.csproj" />
+  </ItemGroup>
+
 </Project>

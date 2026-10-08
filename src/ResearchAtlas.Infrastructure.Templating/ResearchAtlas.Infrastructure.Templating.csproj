@@ -15,4 +15,8 @@
     <PackageReference Include="Scriban" Version="7.5.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ResearchAtlas.Application.Abstractions\ResearchAtlas.Application.Abstractions.csproj" />
+  </ItemGroup>
+
 </Project>
