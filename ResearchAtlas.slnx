@@ -58,7 +58,9 @@
     <File Path="AGENTS.md" />
   </Folder>
   <Folder Name="/10. Docs/">
+    <File Path="CONTRIBUTING.md" />
     <File Path="LICENSE" />
     <File Path="README.md" />
+    <File Path="SECURITY.md" />
   </Folder>
 </Solution>

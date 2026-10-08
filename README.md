@@ -2,22 +2,21 @@
 
 Open-source platform for managing evaluation processes in universities and research institutions.
 
+## Overview
+
+## Key capabilities
+
+## Architecture
+
 ## Configuration
 
 ## Installation
 
 ## Contributing
 
-Contributions of all kinds are welcome, including bug reports, feature requests,
-documentation improvements, tests, and code changes.
-
-1. Search the [open issues](https://github.com/researchatlas-network/researchatlas/issues) to avoid duplicates, or open a new issue to discuss a bug or proposed feature.
-2. Fork the repository and create a focused branch from the default branch.
-3. Make your changes, following the existing project structure and coding style.
-4. Run the checks relevant to your changes before submitting them.
-5. Submit a pull request that explains the motivation for the change, the implementation, and any testing performed. Link the related issue when applicable.
-
-Please keep pull requests small and focused. Do not include generated build artifacts, secrets, or unrelated formatting changes. For substantial changes, open an issue first so the approach can be discussed.
+Contributions are welcome. See the [contribution guide](CONTRIBUTING.md) for
+details on reporting issues and submitting changes. For security
+vulnerabilities, follow the [security policy](SECURITY.md).
 
 ## Contributors
 
