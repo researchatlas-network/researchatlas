@@ -7,6 +7,10 @@
   <Project Path="src/ResearchAtlas.Domain/ResearchAtlas.Domain.csproj" />
   <Project Path="src/ResearchAtlas.Infrastructure.Cache.Memory/ResearchAtlas.Infrastructure.Cache.Memory.csproj" Id="a02bcd06-999d-4e5e-9d02-c7b9dc5758e8" />
   <Project Path="src/ResearchAtlas.Infrastructure.Cache.Redis/ResearchAtlas.Infrastructure.Cache.Redis.csproj" Id="478e1f41-a50f-48bb-8451-2cbef5bb34a4" />
+  <Project Path="src/ResearchAtlas.Infrastructure.Identity.BuiltIn/ResearchAtlas.Infrastructure.Identity.BuiltIn.csproj" Id="53c63d61-8044-4ee4-8e6d-e97bc6c606f7" />
+  <Project Path="src/ResearchAtlas.Infrastructure.Identity.EntraId/ResearchAtlas.Infrastructure.Identity.EntraId.csproj" Id="1493f7ce-59a2-4383-8453-e9958752fd89" />
+  <Project Path="src/ResearchAtlas.Infrastructure.Identity.OpenIdConnect/ResearchAtlas.Infrastructure.Identity.OpenIdConnect.csproj" Id="e5b66949-6c04-4bbb-b43a-2830922fa919" />
+  <Project Path="src/ResearchAtlas.Infrastructure.Identity.Saml/ResearchAtlas.Infrastructure.Identity.Saml.csproj" Id="83548850-fab2-4686-b268-9dbf274338f6" />
   <Project Path="src/ResearchAtlas.Infrastructure.Persistence.SqlServer/ResearchAtlas.Infrastructure.Persistence.SqlServer.csproj" Id="f91d9074-a126-4e16-a2ab-a1b949c16654" />
   <Project Path="src/ResearchAtlas.Infrastructure.Remote.Http/ResearchAtlas.Infrastructure.Remote.Http.csproj" Id="d3d0c344-8b9d-47c2-ac9d-4da5d42a8150" />
   <Project Path="src/ResearchAtlas.Infrastructure.Remote.Sftp/ResearchAtlas.Infrastructure.Remote.Sftp.csproj" Id="74caf99b-a6e6-47ef-86e1-86544c17fb2c" />
