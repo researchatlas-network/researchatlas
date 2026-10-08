@@ -5,6 +5,8 @@
   <Project Path="src/ResearchAtlas.DependencyInjection/ResearchAtlas.DependencyInjection.csproj" Id="69c0134f-23a3-43a8-ab53-d18ee4929674" />
   <Project Path="src/ResearchAtlas.Domain.Abstractions/ResearchAtlas.Domain.Abstractions.csproj" Id="c6268a6d-21ad-4b3d-b0ab-c47f08d22378" />
   <Project Path="src/ResearchAtlas.Domain/ResearchAtlas.Domain.csproj" />
+  <Project Path="src/ResearchAtlas.Infrastructure.Cache.Memory/ResearchAtlas.Infrastructure.Cache.Memory.csproj" Id="a02bcd06-999d-4e5e-9d02-c7b9dc5758e8" />
+  <Project Path="src/ResearchAtlas.Infrastructure.Cache.Redis/ResearchAtlas.Infrastructure.Cache.Redis.csproj" Id="478e1f41-a50f-48bb-8451-2cbef5bb34a4" />
   <Project Path="src/ResearchAtlas.Infrastructure.Persistence.SqlServer/ResearchAtlas.Infrastructure.Persistence.SqlServer.csproj" Id="f91d9074-a126-4e16-a2ab-a1b949c16654" />
   <Project Path="src/ResearchAtlas.Infrastructure.Remote.Http/ResearchAtlas.Infrastructure.Remote.Http.csproj" Id="d3d0c344-8b9d-47c2-ac9d-4da5d42a8150" />
   <Project Path="src/ResearchAtlas.Infrastructure.Remote.Sftp/ResearchAtlas.Infrastructure.Remote.Sftp.csproj" Id="74caf99b-a6e6-47ef-86e1-86544c17fb2c" />
