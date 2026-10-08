@@ -1,7 +1,23 @@
+using ResearchAtlas.Configuration;
+using ResearchAtlas.DependencyInjection;
 using ResearchAtlas.Worker;
+using Serilog;
 
-var builder = Host.CreateApplicationBuilder(args);
-builder.Services.AddHostedService<Worker>();
+var host = Host.CreateDefaultBuilder(args)
+    .ConfigureAppConfiguration((context, configuration) =>
+        configuration.AddSharedSettings(context.HostingEnvironment.IsDevelopment()))
+    .UseServiceProviderFactory(
+        context => new ResearchAtlasServiceProviderFactory(context.HostingEnvironment.IsDevelopment()))
+    .ConfigureServices(services =>
+    {
+        services.AddSerilog(loggerConfiguration => loggerConfiguration
+            .MinimumLevel.Information()
+            .MinimumLevel.Override("Microsoft", Serilog.Events.LogEventLevel.Warning)
+            .Enrich.FromLogContext()
+            .WriteTo.Console());
 
-var host = builder.Build();
+        services.AddHostedService<Worker>();
+    })
+    .Build();
+
 host.Run();
