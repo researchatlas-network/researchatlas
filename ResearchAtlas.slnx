@@ -25,4 +25,5 @@
   <Project Path="src/ResearchAtlas.Infrastructure.Storage.AzureBlob/ResearchAtlas.Infrastructure.Storage.AzureBlob.csproj" Id="b07c495a-ea1b-4d04-a62b-8af4dba38066" />
   <Project Path="src/ResearchAtlas.Infrastructure.Storage.FileSystem/ResearchAtlas.Infrastructure.Storage.FileSystem.csproj" Id="b4451f68-56d0-4783-b18f-f031c565e32b" />
   <Project Path="src/ResearchAtlas.Infrastructure.Templating/ResearchAtlas.Infrastructure.Templating.csproj" Id="d3fd8733-6e71-4314-8b57-a081d5ea69d2" />
+  <Project Path="src/ResearchAtlas.Portal/ResearchAtlas.Portal.csproj" Id="afe9675e-3493-4b93-9432-b5091e56791a" />
 </Solution>
