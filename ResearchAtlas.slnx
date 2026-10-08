@@ -1,3 +1,4 @@
 <Solution>
+  <Project Path="src/ResearchAtlas.Application/ResearchAtlas.Application.csproj" Id="8e8479a5-9a1a-4cb8-b1aa-7d7f604bb710" />
   <Project Path="src/ResearchAtlas.Domain/ResearchAtlas.Domain.csproj" />
 </Solution>
