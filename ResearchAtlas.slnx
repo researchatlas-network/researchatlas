@@ -6,6 +6,7 @@
   <Project Path="src/ResearchAtlas.DependencyInjection/ResearchAtlas.DependencyInjection.csproj" Id="69c0134f-23a3-43a8-ab53-d18ee4929674" />
   <Project Path="src/ResearchAtlas.Domain.Abstractions/ResearchAtlas.Domain.Abstractions.csproj" Id="c6268a6d-21ad-4b3d-b0ab-c47f08d22378" />
   <Project Path="src/ResearchAtlas.Domain/ResearchAtlas.Domain.csproj" />
+  <Project Path="src/ResearchAtlas.Extensions/ResearchAtlas.Extensions.csproj" Id="8273084c-4719-4f83-baed-385149f25b09" />
   <Project Path="src/ResearchAtlas.Infrastructure.Cache.Memory/ResearchAtlas.Infrastructure.Cache.Memory.csproj" Id="a02bcd06-999d-4e5e-9d02-c7b9dc5758e8" />
   <Project Path="src/ResearchAtlas.Infrastructure.Cache.Redis/ResearchAtlas.Infrastructure.Cache.Redis.csproj" Id="478e1f41-a50f-48bb-8451-2cbef5bb34a4" />
   <Project Path="src/ResearchAtlas.Infrastructure.Cryptography/ResearchAtlas.Infrastructure.Cryptography.csproj" Id="f6989715-36aa-4e39-99e6-b6b0882091f6" />
