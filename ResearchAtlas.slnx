@@ -2,6 +2,7 @@
   <Project Path="src/ResearchAtlas.Application.Abstractions/ResearchAtlas.Application.Abstractions.csproj" Id="c4c14d56-e4c2-4885-a3d4-f4345f87c3ed" />
   <Project Path="src/ResearchAtlas.Application/ResearchAtlas.Application.csproj" Id="8e8479a5-9a1a-4cb8-b1aa-7d7f604bb710" />
   <Project Path="src/ResearchAtlas.Configuration/ResearchAtlas.Configuration.csproj" Id="acf187b5-ab40-4401-917f-ad5522cf9643" />
+  <Project Path="src/ResearchAtlas.Database.Migrations.SqlServer/ResearchAtlas.Database.Migrations.SqlServer.csproj" Id="764e2ef1-16fb-411c-9fe3-5fce2f4fd53e" />
   <Project Path="src/ResearchAtlas.DependencyInjection/ResearchAtlas.DependencyInjection.csproj" Id="69c0134f-23a3-43a8-ab53-d18ee4929674" />
   <Project Path="src/ResearchAtlas.Domain.Abstractions/ResearchAtlas.Domain.Abstractions.csproj" Id="c6268a6d-21ad-4b3d-b0ab-c47f08d22378" />
   <Project Path="src/ResearchAtlas.Domain/ResearchAtlas.Domain.csproj" />
