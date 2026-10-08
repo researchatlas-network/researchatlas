@@ -1,6 +1,0 @@
-@ResearchAtlas.Sol_HostAddress = http://localhost:5251
-
-GET {{ResearchAtlas.Sol_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###

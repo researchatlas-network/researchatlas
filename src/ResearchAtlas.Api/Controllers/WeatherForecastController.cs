@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace ResearchAtlas.Sol.Controllers
+namespace ResearchAtlas.Api.Controllers
 {
     [ApiController]
     [Route("[controller]")]

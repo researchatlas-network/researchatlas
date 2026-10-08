@@ -1,4 +1,4 @@
-namespace ResearchAtlas.Sol
+namespace ResearchAtlas.Api
 {
     public class WeatherForecast
     {

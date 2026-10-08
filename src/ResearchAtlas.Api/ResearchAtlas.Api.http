@@ -1,0 +1,6 @@
+@ResearchAtlas.Api_HostAddress = http://localhost:5250
+
+GET {{ResearchAtlas.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

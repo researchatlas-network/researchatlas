@@ -7,9 +7,10 @@
     <Project Path="src/ResearchAtlas.DependencyInjection/ResearchAtlas.DependencyInjection.csproj" Id="69c0134f-23a3-43a8-ab53-d18ee4929674" />
   </Folder>
   <Folder Name="/2. Presentation/">
+    <Project Path="src/ResearchAtlas.Api/ResearchAtlas.Api.csproj" Id="55eb45b2-51a9-495f-a97e-3dc60cface51" />
     <Project Path="src/ResearchAtlas.Luna/ResearchAtlas.Luna.csproj" Id="5b55d3ea-0102-40d9-88e9-9fc4017363dd" />
-    <Project Path="src/ResearchAtlas.Sol/ResearchAtlas.Sol.csproj" Id="8935a613-d626-46be-912b-2d930be4e2c9" />
     <Project Path="src/ResearchAtlas.Terra/ResearchAtlas.Terra.csproj" Id="5a4110c9-5832-4bbb-9e24-9d9aaefa9231" />
+    <Project Path="src/ResearchAtlas.Worker/ResearchAtlas.Worker.csproj" Id="b6deb5d8-8d33-485b-8899-ecfce91c1559" />
   </Folder>
   <Folder Name="/3. Application/">
     <Project Path="src/ResearchAtlas.Application.Abstractions/ResearchAtlas.Application.Abstractions.csproj" Id="c4c14d56-e4c2-4885-a3d4-f4345f87c3ed" />
